@@ -1,0 +1,142 @@
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(Norse-Bold.otf);
+}
+
+html {
+    margin: 0px;
+    display: flex;
+    flex: 1;
+}
+
+#leaves {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+
+.mainBg {
+    background-color: #F9FAFB;
+}
+.mainText {
+    position: relative;
+    top: 80px;
+    font-size: 30px;
+    width: 800px;
+    margin-left: 50px;
+
+
+}
+
+.logo {
+    width: 100px;
+
+}
+.logoText {
+    font-family: "Norse-Bold";
+    font-size: 90px;
+    color: white;
+    margin-top: 20px;
+}
+
+.logoAndText {
+    height: 180px;
+    width: 575px;
+    position: absolute;
+    margin-top: 185px;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+}
+
+
+.logoBgBlack {
+    width: 575px;
+    height: 180px;
+    position: absolute;
+    background-color: black;
+    margin-top: 185px;
+    opacity: 30%;
+}
+
+
+
+.formDiv {
+    padding-top: 20px;
+    background-color: white;
+    height: 260px;
+    margin-top: 150px;
+    filter: drop-shadow(1px 1px black);
+
+}
+
+.formDiv strong {
+    margin-left: 50px;
+    font-size: 20px;
+
+}
+
+br {
+    height: 100px;
+}
+
+form {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    margin-right: 120px;
+    height: 260px;
+
+
+
+}
+
+input {
+    border-radius: 7px;
+    border: 2px solid #E5E7EB;
+    height: 25px;
+}
+
+input:focus {
+    border-color: blue;
+}
+
+
+.formGroup {
+    margin-left: 50px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    width: 200px;
+}
+
+#submit {
+    background-color: #596D48;
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.logInText {
+    margin-top: 20px;
+
+    margin-left: 50px;
+
+}
+
+.logIn {
+    color: #596D48;
+}
